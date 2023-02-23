@@ -1,0 +1,104 @@
+.addPassword-cont {
+  background-color: #5763a5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  padding: 35px;
+  margin-bottom: 20px;
+}
+.add-cont {
+  background-color: #454f84;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.web {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.icon {
+  width: 20px;
+}
+.icon-cont {
+  background-color: #f8fafc;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  border-right: 1px;
+  border-left: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-style: solid;
+  border-color: #b6c3ca;
+}
+.input {
+  width: 300px;
+  height: 35px;
+  background-color: #f8fafc;
+  border: 0px solid white;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding-left: 10px;
+  color: black;
+  font-size: 12px;
+  font-family: 'Roboto';
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+.btn {
+  background-color: #0b69ff;
+  color: white;
+  width: 80px;
+  height: 30px;
+  border: 0px solid white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  align-self: flex-end;
+}
+.add-para {
+  color: white;
+  font-size: 18px;
+  font-family: 'roboto';
+}
+.image {
+  width: 320px;
+  flex-shrink: 1;
+}
+.image2 {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .addPassword-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .add-cont {
+    order: 1;
+    margin-top: 10px;
+    flex-shrink: 1;
+  }
+  .image {
+    display: none;
+  }
+  .image2 {
+    display: flex;
+    align-items: center;
+    width: 250px;
+  }
+}

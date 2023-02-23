@@ -1,0 +1,133 @@
+.show-head {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .show-head {
+    font-size: 15px;
+  }
+}
+.num {
+  width: 20px;
+  border: 1px solid white;
+  height: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+@media screen and (max-width: 768px) {
+  .num {
+    margin-left: 0px;
+  }
+}
+.Number {
+  font-size: 10px;
+  color: white;
+}
+.show-head-cont {
+  display: flex;
+  align-items: center;
+}
+.container {
+  background-color: #5763a5;
+  border-radius: 8px;
+  padding: 35px;
+  height: 70vh;
+}
+.search-logo {
+  background-color: #f8fafc;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px;
+  border-left: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-style: solid;
+  border-color: #b6c3ca;
+}
+@media screen and (max-width: 768px) {
+  .search-logo {
+    width: 15px;
+  }
+}
+.search-icon {
+  width: 15px;
+}
+@media screen and (max-width: 768px) {
+  .search-icon {
+    width: 10px;
+  }
+}
+.search-cont {
+  display: flex;
+  align-items: center;
+}
+.searchInput {
+  border: 0px solid white;
+  height: 20px;
+  width: 180px;
+  padding-left: 10px;
+  outline: none;
+  padding-left: 10px;
+  color: black;
+  font-size: 10px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .searchInput {
+    width: 80px;
+  }
+}
+.showContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.check-cont {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.label {
+  color: white;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+.noPassImg {
+  width: 350px;
+}
+@media screen and (max-width: 768px) {
+  .noPassImg {
+    width: 250px;
+  }
+}
+.img-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.para-pass {
+  color: white;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.list-cont {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}

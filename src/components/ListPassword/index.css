@@ -1,0 +1,56 @@
+.item-cont {
+  border: 1px solid #b6c3ca;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.profile-cont {
+  background-color: #10b981;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: 0px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.profile-letter {
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.name {
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.pass {
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.btn-delete {
+  background-color: transparent;
+  border: 0px solid white;
+}
+.delete {
+  width: 20px;
+}
+.cont {
+  display: flex;
+  align-items: center;
+}
+.star {
+  width: 120px;
+}

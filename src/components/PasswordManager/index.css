@@ -1,0 +1,14 @@
+.bgContainer {
+  background-image: linear-gradient(to bottom, #94a3b8, #b6c3ca);
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.logo {
+  width: 160px;
+  margin-bottom: 18px;
+}
